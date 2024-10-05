@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*𝙹𝙾𝚎𝚕 𝙼𝙳 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
+    const uptimeMessage = `*SCOPION BOT 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴*
 ╭❐
 ┇ *${days} Day(s)*
 ┇ *${hours} Hour(s)*
@@ -64,7 +64,7 @@ const alive = async (m, Matrix) => {
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙹𝙾𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊"
+              text: "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 scopion bot"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -82,7 +82,7 @@ const alive = async (m, Matrix) => {
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '255714595078@s.whatsapp.net',
-                newsletterName: "JOel",
+                newsletterName: "Scopion",
                 serverMessageId: 143
               }
             }
