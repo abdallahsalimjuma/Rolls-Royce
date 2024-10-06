@@ -70,7 +70,7 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 JOEL-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 SCORPION-BOT using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
@@ -83,7 +83,7 @@ async function start() {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "JOEL-MD whatsapp user bot" };
+                return { conversation: "SCORPION-BOT whatsapp user bot" };
             }
         });
 
