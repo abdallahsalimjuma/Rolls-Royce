@@ -422,7 +422,7 @@ const playcommand = async (_0x3a4726, _0x1107b4) => {
           deviceListMetadataVersion: 0x2
         };
         const _0x28b802 = {
-          text: "*JOEL MD YOUTUBE SEARCH*\n\n> *TITLE:* " + _0x374253.title + "\n> *AUTHOR:* " + _0x374253.author.name + "\n> *VIEWS:* " + _0x374253.views + "\n> *DURATION:* " + _0x374253.timestamp + "\n> *YTLINK:* " + _0x15869d + "\n"
+          text: "*SCORPION BOT YOUTUBE SEARCH*\n\n> *TITLE:* " + _0x374253.title + "\n> *AUTHOR:* " + _0x374253.author.name + "\n> *VIEWS:* " + _0x374253.views + "\n> *DURATION:* " + _0x374253.timestamp + "\n> *YTLINK:* " + _0x15869d + "\n"
         };
         const _0x418798 = {
           url: _0x227e01
